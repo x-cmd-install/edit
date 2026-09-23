@@ -29,16 +29,16 @@ jobs:
 
       # No x-cmd install step: .github/card.sh is a self-contained port of
       # `x repo card` needing only curl + jq, both preinstalled on the runner.
-      - name: Generate data/<date>.yml
+      - name: Generate data/card/<date>.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -eu
           date_stamp=$(date -u +%y%m%d)
           mkdir -p data
-          bash .github/card.sh > "data/$date_stamp.yml"
-          [ -s "data/$date_stamp.yml" ] || { echo "empty card" >&2; exit 1; }
-          echo "==> data/$date_stamp.yml ($(wc -l < "data/$date_stamp.yml") lines)"
+          bash .github/card.sh > "data/card/$date_stamp.yml"
+          [ -s "data/card/$date_stamp.yml" ] || { echo "empty card" >&2; exit 1; }
+          echo "==> data/card/$date_stamp.yml ($(wc -l < "data/card/$date_stamp.yml") lines)"
 
       - name: Commit
         run: |
