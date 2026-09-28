@@ -1,0 +1,75 @@
+about:
+  description:
+  |
+    We all edit.
+  license: MIT
+  homepage: 
+  head: c470ca5
+  archived: false
+  latestVersion: v2.0.0
+  collectedAt: 2026-09-28T05:53:39Z
+timeline:
+  created: 2025-03-21
+  lastCommit: 2026-09-21
+  lastRelease: 2026-04-28
+popularity:
+  star: 14641
+  watcher: 81
+  fork: 735
+  release: 5
+  contributor: 118
+  pullRequest: 175
+  issue: 468
+language:
+  Rust: 1166366
+  Shell: 9854
+  Inno Setup: 5376
+  PowerShell: 3225
+  Java: 3070
+  C#: 2641
+  F#: 2432
+  Odin: 2163
+  Python: 1733
+  C++: 1693
+  Go: 1643
+  C: 1640
+  Ruby: 1588
+  JavaScript: 1496
+  Lua: 1348
+  HTML: 1106
+  Roff: 811
+  Batchfile: 756
+totalBytes: 1208941
+recent:
+  last30d:
+    since: 2026-08-29
+    release: 0
+    mergedPR: 6
+    openPR: 7
+    closedIssue: 1
+    openIssue: 3
+    commit: 8
+  last90d:
+    since: 2026-06-30
+    release: 0
+    mergedPR: 26
+    openPR: 22
+    closedIssue: 6
+    openIssue: 12
+    commit: 46
+  last180d:
+    since: 2026-04-01
+    release: 1
+    mergedPR: 66
+    openPR: 27
+    closedIssue: 23
+    openIssue: 26
+    commit: 72
+  last360d:
+    since: 2025-10-03
+    release: 2
+    mergedPR: 103
+    openPR: 32
+    closedIssue: 68
+    openIssue: 46
+    commit: 108
