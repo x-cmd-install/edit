@@ -7,18 +7,18 @@ about:
   head: c470ca5
   archived: false
   latestVersion: v2.0.0
-  collectedAt: 2026-09-28T05:53:39Z
+  collectedAt: 2026-09-28T17:00:09Z
 timeline:
   created: 2025-03-21
   lastCommit: 2026-09-21
   lastRelease: 2026-04-28
 popularity:
-  star: 14641
+  star: 14644
   watcher: 81
   fork: 735
   release: 5
   contributor: 118
-  pullRequest: 175
+  pullRequest: 178
   issue: 468
 language:
   Rust: 1166366
@@ -45,7 +45,7 @@ recent:
     since: 2026-08-29
     release: 0
     mergedPR: 6
-    openPR: 7
+    openPR: 9
     closedIssue: 1
     openIssue: 3
     commit: 8
@@ -53,7 +53,7 @@ recent:
     since: 2026-06-30
     release: 0
     mergedPR: 26
-    openPR: 22
+    openPR: 24
     closedIssue: 6
     openIssue: 12
     commit: 46
@@ -61,7 +61,7 @@ recent:
     since: 2026-04-01
     release: 1
     mergedPR: 66
-    openPR: 27
+    openPR: 29
     closedIssue: 23
     openIssue: 26
     commit: 72
@@ -69,7 +69,7 @@ recent:
     since: 2025-10-03
     release: 2
     mergedPR: 103
-    openPR: 32
+    openPR: 34
     closedIssue: 68
     openIssue: 46
     commit: 108
